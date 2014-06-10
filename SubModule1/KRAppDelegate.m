@@ -16,6 +16,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"SubModule1" bundle:nil];
+    UIViewController *subModule1 = [story instantiateInitialViewController];
+    self.window.rootViewController = subModule1;
+    
     return YES;
 }
 

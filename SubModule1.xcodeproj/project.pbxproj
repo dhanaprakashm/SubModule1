@@ -20,6 +20,8 @@
 		8A16B52D19474C8200D6F721 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A16B52B19474C8200D6F721 /* InfoPlist.strings */; };
 		8A16B52F19474C8200D6F721 /* SubModule1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16B52E19474C8200D6F721 /* SubModule1Tests.m */; };
 		8A16B53919474C9700D6F721 /* SubModule1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A16B53819474C9700D6F721 /* SubModule1.storyboard */; };
+		8A1D5F5519475E6100059236 /* KRMainSubModule1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D5F5419475E6100059236 /* KRMainSubModule1ViewController.m */; };
+		8A1D5F5819475F6F00059236 /* KRSubModulePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D5F5719475F6F00059236 /* KRSubModulePresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		8A16B52C19474C8200D6F721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A16B52E19474C8200D6F721 /* SubModule1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubModule1Tests.m; sourceTree = "<group>"; };
 		8A16B53819474C9700D6F721 /* SubModule1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubModule1.storyboard; sourceTree = SOURCE_ROOT; };
+		8A1D5F5319475E6100059236 /* KRMainSubModule1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRMainSubModule1ViewController.h; sourceTree = "<group>"; };
+		8A1D5F5419475E6100059236 /* KRMainSubModule1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRMainSubModule1ViewController.m; sourceTree = "<group>"; };
+		8A1D5F5619475F6F00059236 /* KRSubModulePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRSubModulePresenter.h; sourceTree = "<group>"; };
+		8A1D5F5719475F6F00059236 /* KRSubModulePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRSubModulePresenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				8A16B51B19474C8200D6F721 /* Images.xcassets */,
 				8A16B53819474C9700D6F721 /* SubModule1.storyboard */,
 				8A16B51019474C8200D6F721 /* Supporting Files */,
+				8A1D5F5319475E6100059236 /* KRMainSubModule1ViewController.h */,
+				8A1D5F5419475E6100059236 /* KRMainSubModule1ViewController.m */,
+				8A1D5F5619475F6F00059236 /* KRSubModulePresenter.h */,
+				8A1D5F5719475F6F00059236 /* KRSubModulePresenter.m */,
 			);
 			path = SubModule1;
 			sourceTree = "<group>";
@@ -246,6 +256,8 @@
 			files = (
 				8A16B51619474C8200D6F721 /* main.m in Sources */,
 				8A16B51A19474C8200D6F721 /* KRAppDelegate.m in Sources */,
+				8A1D5F5819475F6F00059236 /* KRSubModulePresenter.m in Sources */,
+				8A1D5F5519475E6100059236 /* KRMainSubModule1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +456,7 @@
 				8A16B53419474C8200D6F721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A16B53519474C8200D6F721 /* Build configuration list for PBXNativeTarget "SubModule1Tests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +465,7 @@
 				8A16B53719474C8200D6F721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
