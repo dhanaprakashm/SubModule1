@@ -19,6 +19,7 @@
 		8A16B52519474C8200D6F721 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A16B50D19474C8200D6F721 /* UIKit.framework */; };
 		8A16B52D19474C8200D6F721 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A16B52B19474C8200D6F721 /* InfoPlist.strings */; };
 		8A16B52F19474C8200D6F721 /* SubModule1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16B52E19474C8200D6F721 /* SubModule1Tests.m */; };
+		8A16B53919474C9700D6F721 /* SubModule1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A16B53819474C9700D6F721 /* SubModule1.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8A16B52A19474C8200D6F721 /* SubModule1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubModule1Tests-Info.plist"; sourceTree = "<group>"; };
 		8A16B52C19474C8200D6F721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A16B52E19474C8200D6F721 /* SubModule1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubModule1Tests.m; sourceTree = "<group>"; };
+		8A16B53819474C9700D6F721 /* SubModule1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubModule1.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				8A16B51819474C8200D6F721 /* KRAppDelegate.h */,
 				8A16B51919474C8200D6F721 /* KRAppDelegate.m */,
 				8A16B51B19474C8200D6F721 /* Images.xcassets */,
+				8A16B53819474C9700D6F721 /* SubModule1.storyboard */,
 				8A16B51019474C8200D6F721 /* Supporting Files */,
 			);
 			path = SubModule1;
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A16B53919474C9700D6F721 /* SubModule1.storyboard in Resources */,
 				8A16B51419474C8200D6F721 /* InfoPlist.strings in Resources */,
 				8A16B51C19474C8200D6F721 /* Images.xcassets in Resources */,
 			);
