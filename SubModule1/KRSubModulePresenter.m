@@ -18,4 +18,12 @@
     [mainVC presentViewController:subModule1 animated:YES completion:nil];
 }
 
+- (void)pushSubModuleViewControllerFromVC:(UINavigationController *)navVC
+{
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"SubModule1" bundle:nil];
+    UIViewController *subModule1 = [story instantiateViewControllerWithIdentifier:@"SubModule1"];
+    
+    [navVC pushViewController:subModule1 animated:YES];
+}
+
 @end

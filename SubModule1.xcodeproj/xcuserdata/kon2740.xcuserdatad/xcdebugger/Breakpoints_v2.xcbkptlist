@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SubModule1/KRMainSubModule1ViewController.m"
-            timestampString = "424108342.214575"
+            timestampString = "424108960.801084"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SubModule1/KRSubModulePresenter.m"
-            timestampString = "424108293.876845"
+            timestampString = "424108960.801084"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "-presentSubModuleViewControllerFromVC:"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-pushSubModuleViewControllerFromVC:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

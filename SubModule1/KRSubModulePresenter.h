@@ -11,5 +11,6 @@
 @interface KRSubModulePresenter : NSObject
 
 - (void)presentSubModuleViewControllerFromVC:(UIViewController *)mainVC;
+- (void)pushSubModuleViewControllerFromVC:(UINavigationController *)navVC;
 
 @end

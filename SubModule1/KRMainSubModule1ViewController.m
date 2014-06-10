@@ -26,7 +26,8 @@
 
 - (IBAction)gotoSubModule1:(id)sender
 {
-    [self.presenter presentSubModuleViewControllerFromVC:self];
+//    [self.presenter presentSubModuleViewControllerFromVC:self];
+    [self.presenter pushSubModuleViewControllerFromVC:self.navigationController];
 }
 
 @end

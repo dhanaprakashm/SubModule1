@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}", "*.storyboard", "SubModule1"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}", "SubModule1"
+  s.exclude_files = "Classes/Exclude", "SubModule1/KRAppDelegate.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
+  s.resource  = "*.storyboard"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
