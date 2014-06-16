@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="yj2-HR-H2C">
             <objects>
-                <viewController storyboardIdentifier="SubModule1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I9Q-Zf-Ed4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubModule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I9Q-Zf-Ed4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s8m-0V-1kR"/>
                         <viewControllerLayoutGuide type="bottom" id="hNB-GI-JF2"/>
@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="1090" y="-107"/>
         </scene>
-        <!--Main Sub Module1 View Controller-->
+        <!--Main Sub Module1 View Controller - Feature A-->
         <scene sceneID="g6n-aT-SML">
             <objects>
-                <viewController id="ih3-3f-gV1" customClass="KRMainSubModule1ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubModule1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ih3-3f-gV1" customClass="KRMainSubModule1ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yxZ-j0-Wru"/>
                         <viewControllerLayoutGuide type="bottom" id="Z1z-xc-s4z"/>
@@ -47,24 +47,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1D-dO-6Gj">
-                                <rect key="frame" x="97" y="213" width="126" height="30"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAz-vL-Xmx">
+                                <rect key="frame" x="111" y="272" width="98" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Goto SubModule1">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="gotoSubModule1:" destination="ih3-3f-gV1" eventType="touchUpInside" id="YOW-5o-KUq"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This feature A has been developed as a module and is easily pluggable into Main Application" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="c42-N9-eu6">
+                                <rect key="frame" x="20" y="84" width="280" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="h1D-dO-6Gj" secondAttribute="centerX" id="KHh-Jy-m7c"/>
-                            <constraint firstItem="h1D-dO-6Gj" firstAttribute="top" secondItem="yxZ-j0-Wru" secondAttribute="bottom" constant="193" id="hRW-5d-DXr"/>
+                            <constraint firstItem="oAz-vL-Xmx" firstAttribute="centerX" secondItem="1yk-Nb-FN6" secondAttribute="centerX" id="3FI-R0-TDg"/>
+                            <constraint firstAttribute="trailing" secondItem="c42-N9-eu6" secondAttribute="trailing" constant="20" id="BgS-31-uYv"/>
+                            <constraint firstItem="oAz-vL-Xmx" firstAttribute="centerY" secondItem="1yk-Nb-FN6" secondAttribute="centerY" id="Vnx-Tu-PoF"/>
+                            <constraint firstItem="c42-N9-eu6" firstAttribute="leading" secondItem="1yk-Nb-FN6" secondAttribute="leading" constant="20" id="dju-iU-lLV"/>
+                            <constraint firstItem="c42-N9-eu6" firstAttribute="top" secondItem="yxZ-j0-Wru" secondAttribute="bottom" constant="20" id="i5d-jH-4Ae"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="AZD-tW-pbi"/>
+                    <navigationItem key="navigationItem" title="Feature A" id="AZD-tW-pbi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N9N-NY-1zc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
